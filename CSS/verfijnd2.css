@@ -1,0 +1,128 @@
+
+body, html{
+	height:100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #C3E0C8;
+
+	@font-face { 
+	font-family: "MANIFESTO";
+	src url("Fonts/MANIFESTO.ttf")
+    }
+
+@font-face { 
+	font-family: "Besom";
+	src url("Fonts/Besom.ttf")
+    }
+	
+}
+
+h1{
+	font-family: "MANIFESTO"
+}
+
+h2{
+	text-align: center;
+	font-family: "MANIFESTO"
+}
+
+.paginatitel{
+	margin-top: 100px;
+}
+
+.center{
+	display: block;
+   	position: relative;
+   	top: 50%;
+
+   	margin: auto;
+	position: relative;
+	top: 50%;
+
+    text-align: center;
+}
+#menubalk {
+	height: 40px;
+	width: 100%;
+	background-color: transparent;
+	position: fixed;
+}
+#menu {
+	height: 40px
+	width: auto;
+	float: right;
+	list-style: none;
+	position: relative;
+}
+#menu li { 
+	height: 40px;
+	width: 100px;
+	float: left;
+	font-family:'Open Sans Condensed', sans-serif;
+	text-align: center;
+	line-height: 40px
+	font-size:20px;
+}
+#menustreepje {
+	height: 3px;
+	width: 50px;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#pagina {
+background-color: #C3E0C8;
+height: 100%;
+ min-height: 500px;
+ 	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pagina1 {
+	background-color: #F3EFE0;
+	height: 100%;
+	margin-top: 10px;
+}
+#pagina2{
+	background-color: #C3E0C8;
+	height: 100%;
+}
+#pagina3{
+	background-color: #F3EFE0;
+	height: 100%;
+}
+#pagina4{
+	background-color: #C3E0C8;
+	height: 100%;
+}
+
+
+@media only screen and (min-width: 480px){ 
+
+	
+	h1{font-size: 40px;}
+	h2{font-size: 10px;}
+}
+
+
+
+@media only screen and (min-width: 640px) { 
+
+	
+
+	h1{font-size:60px;}
+	h2{font-size: 20px;}
+}
+
+@media only screen and (min-width: 800px) { 
+	
+
+
+	h1{font-size:80px;}
+	h2{font-size: 30px;}
+	}
+
