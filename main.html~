@@ -3,8 +3,8 @@
 <html>
 <head>
 	<title>Verfijnd. De perfecte gids voor jouw volgende citytrip</title>
-	<link rel="stylesheet" href="CSS/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/verfijnd2.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/verfijnd2.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 	<script src="CSS/verfijnd2.js"></script>
 </head>
