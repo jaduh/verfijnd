@@ -1,0 +1,4 @@
+
+<?php include_once("main.html");?>git add .
+
+git commit -m "magic php to deploy to heroky"
