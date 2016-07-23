@@ -19,6 +19,12 @@ body, html{
 }
 
 
+    
+ #jumbo{
+ 	color: transparent;
+ }
+
+    
 
 .navbar-nav{
 
@@ -80,7 +86,7 @@ h4{
 
        
 .btn-default {
-    color: #333;
+    color: none;
     background-color: transparent;
     border-color: transparent;
 }
@@ -144,6 +150,8 @@ h4{
 	height: 120%;
 	
 }
+
+
 #pagina2{
 	background-color: #C3E0C8;
 	height: 100%;
@@ -159,4 +167,8 @@ h4{
 
 img.img-responsive.img-rounded {
 	display: initial;
+}
+#deel2{
+	background-color: #F3EFE0;
+	height: 120%;
 }
