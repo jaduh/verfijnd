@@ -18,6 +18,11 @@ body, html{
 	
 }
 
+ .navbar-inverse {
+    background-color: #C3E0C8;
+   
+}
+
 h1{
 	font-family: "MANIFESTO"
 }
@@ -26,6 +31,13 @@ h2{
 	text-align: center;
 	font-family: "MANIFESTO"
 }
+
+.image{
+	height: 220px;
+	width: 220px;
+}
+
+
 
 .paginatitel{
 	margin-top: 100px;
@@ -73,7 +85,7 @@ h2{
 	left: 0;
 }
 
-#pagina {
+#homepage {
 background-color: #C3E0C8;
 height: 100%;
  min-height: 500px;
@@ -82,10 +94,12 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#pagina1 {
+.pagina {
 	background-color: #F3EFE0;
 	height: 100%;
-	margin-top: 10px;
+	padding-top: 10px;
+
+	/*
 }
 #pagina2{
 	background-color: #C3E0C8;
@@ -99,6 +113,6 @@ height: 100%;
 	background-color: #C3E0C8;
 	height: 100%;
 }
-
+*/
 
 

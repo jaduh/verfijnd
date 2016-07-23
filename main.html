@@ -2,53 +2,142 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
 	<title>Verfijnd. De perfecte gids voor jouw volgende citytrip</title>
 	<link rel="stylesheet" href="CSS/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/verfijnd2.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-	<script src="CSS/verfijnd2.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/verfijnd2.css">
+
+
+	
 </head>
 <body>
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    		<span class="sr-only"> Toggle navigation</span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+    		<span class="icon-bar"></span>
+    	</button>
+    </div>
 
-	<div id="menubalk">
-		<ul id="menu">
-			
+<div class="collapse navbar-collapse" id="bs-exemple-navbar-collapse-1">
+    	<ul class="nav navbar-nav nav nav-pills">
+      <li><a href="#">Home</a></li>
+      <li><a href="#pagina1">Antwerpen</a></li>
+      <li><a href="#pagina2">Lekker eten</a></li> 
+      <li><a href="#pagina3">Meer info</a></li> 
 
-			<li>
-				<a href ="#pagina1">De Steden</a>
-			</li>
-			<li>
-				<a href="#pagina2">De must sees</a>
-			</li>
-			<li>
-				<a href="#pagina3">Lekker eten</a>
-			</li>
-			<li> 
-				<a href="meer pagina's/meer weten.html">	Meer weten</a>
-			</li>
-		</ul>
-	</div>
-	<div id="pagina">
+    	</ul>
+  	</div>
+  </div>
+</nav>
+
+
+
+
+	
+	<div id="homepage">
 		<div class="center">
 			<h1>Verfijnd</h1>
 			<h2>De perfecte gids voor je volgende citytrip</h2>
+			<button type="button" class="btn btn-default" aria-label="Left Center">
+				<a href="#pagina1">
+  				<img  src="Afbeeldingen/down-arrow.png" width="20%" height="20%">
+  				</a>
+			</button>
+	
 		</div>
-	</div>
-	<div id="pagina1">
-		<h2 class="paginatitel">De Steden</h2>
-		<h3>De locals</h3>
-	</div>
-	<div id="pagina2">
-		<h2>Zeker een bezoekje waard</h2>
-		<h3>De must sees</h3>
-	</div>
-	<div id="pagina3">
-		<h2>Antwerpse kliekjes</h2>
-		<h3>Lekker eten</h3>
-	</div>
-	<div id="pagina4">
-		<h2>Contact</h2>
+	</div> 
+
+
+<!-- Een div met waardes die gelden voor alle pagina's (behalve de homepages)-->
+	<div class="allpages">
+
+
+<!-- De stadspagina van Antwerpen met 2 rijen foto's. 4 stuks elk.  -->
+		<div id="pagina1">
+				<h3>Antwerpen</h3>
+
+<!-- Een mogelijk kadertje
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-9">
+								<h4>4 feiten over Antwerpen</h4>
+								<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+								</p>
+							</div>
+						</div>
+					</div>
+-->
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<a href="Antwerpen_persoon_1.html">
+							<img src="afbeeldingen/pers6.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							</a>
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+						<div class="col-sm-3">
+							<img src="afbeeldingen/pers3.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+						<div class="col-sm-3">
+							<img src="afbeeldingen/pers4.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+						<div class="col-sm-3">
+							<img src="afbeeldingen/pers5.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+				</div>
+				<div class="row">
+						<div class="col-sm-3">
+							<img src="afbeeldingen/pers6.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+						<div class="col-sm-3">
+							<img src="afbeeldingen/pers3.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+						<div class="col-sm-3">
+							<img src="afbeeldingen/pers4.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+						<div class="col-sm-3">
+							<img src="afbeeldingen/pers5.jpg" class="img-rounded img-responsive" width="200px" height="200px">
+							<h4>Voornaam</h4>
+							<p>"Dit is een citaat"</p>
+						</div>
+
+				</div>
+
+
+			</div>
+		</div>
+
+				 		
+		<div id="pagina2">
+			<h3>Lekker eten</h3>
+		
+		</div>
+			
+		<div id="pagina3">
+			<h3>Meer info</h3>
+		</div>
+		
 	</div>
 
 
