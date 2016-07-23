@@ -18,31 +18,78 @@ body, html{
 	
 }
 
- .navbar-inverse {
-    background-color: #C3E0C8;
-   
+
+
+.navbar-nav{
+
+	display: block;
+
+	text-align: center;
+
 }
+
+.video{
+	background: #e3e3e3;
+ 	
+}
+
+
+
+/* Het menubalkje */
+.navbar-inverse{
+
+	background-color:#C3E0C8;
+	opacity: 0.7;
+	border: none;
+}
+
+/* Pijltje op homepage*/
+
+ .btn-custom {
+  color: transparent;
+  background-color: transparent;
+  border: transparent;
+}
+
+.btn-default {
+	color: none;
+	background-color: none;
+	border: none;
+	}
 
 h1{
-	font-family: "MANIFESTO"
+	font-family: "MANIFESTO";
+	font-size: 75px;
+	font-weight: 700;
 }
-
 h2{
+	font-family: "MANIFESTO";
 	text-align: center;
+	font-size: 20px
+}
+
+h3{
+	text-align: center;
+	line-height: 5;
 	font-family: "MANIFESTO"
 }
 
-.image{
-	height: 220px;
-	width: 220px;
+h4{
+	margin-bottom: 0px;
 }
 
-
+       
+.btn-default {
+    color: #333;
+    background-color: transparent;
+    border-color: transparent;
+}
 
 .paginatitel{
 	margin-top: 100px;
 }
 
+/*
 .center{
 	display: block;
    	position: relative;
@@ -54,52 +101,48 @@ h2{
 
     text-align: center;
 }
-#menubalk {
-	height: 40px;
-	width: 100%;
-	background-color: transparent;
-	position: fixed;
-}
-#menu {
-	height: 40px
-	width: auto;
-	float: right;
-	list-style: none;
-	position: relative;
-}
-#menu li { 
-	height: 40px;
-	width: 100px;
-	float: left;
-	font-family:'Open Sans Condensed', sans-serif;
+*/
+
+#pijltje{width: 10px; height: 10px;}
+
+
+.allpages{
+
 	text-align: center;
-	line-height: 40px
-	font-size:20px;
-}
-#menustreepje {
-	height: 3px;
-	width: 50px;
-	background-color: black;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+	height: 100%;
+	min-height: 500px;
+ 	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
+.allpages .col-sm-9 {text-align: left;
+
+}
 #homepage {
-background-color: #C3E0C8;
-height: 100%;
- min-height: 500px;
+	display: block;
+   	position: relative;
+   	padding-top: 20%;
+
+   	margin: auto;
+	position: relative;
+	
+
+	text-align: center;
+
+	background-color: #C3E0C8;
+	height: 100%;
  	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.pagina {
+#pagina1{
 	background-color: #F3EFE0;
-	height: 100%;
-	padding-top: 10px;
-
-	/*
+	height: 120%;
+	
 }
 #pagina2{
 	background-color: #C3E0C8;
@@ -113,6 +156,7 @@ height: 100%;
 	background-color: #C3E0C8;
 	height: 100%;
 }
-*/
 
-
+img.img-responsive.img-rounded {
+	display: initial;
+}
